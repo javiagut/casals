@@ -1,0 +1,38 @@
+table{
+    width: 700px;
+    display: flex;
+    margin: auto auto;
+}
+table tr{
+    display: flex;
+    width: 700px;
+    border: 1px solid black;
+}
+table tr:first-child{
+    background-color: aqua;
+    border-radius: 5px;
+}
+table td{
+    display: flex;
+    width: 14%;
+    padding: 4px;
+}
+.añadirBTN{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-left: 271px;
+    margin-top: -49px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.añadirBTN:hover{
+    background-color: aqua;
+    color: black;
+    border: 1px solid black;
+}
+.formAñadir input{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
